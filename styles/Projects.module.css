@@ -1,0 +1,10 @@
+.projects{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.item{
+  width:40%;
+  height: 30%;
+}

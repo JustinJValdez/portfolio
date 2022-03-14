@@ -3,7 +3,7 @@ import Image from 'next/image';
 const Photo = () => {
   return ( 
     <>
-      <Image src='/cat.jpg' width={800} height={400} />
+      <Image src='/cat.jpg' width={2000} height={1100} />
     </>
    );
 }
