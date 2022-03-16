@@ -9,27 +9,27 @@ const Projects = () => {
     <section className={styles.projects}>
       <div className={styles.item}>
       <Image src='/fringe.png' width={325} height={225} />
-        Fringe
+        <p>Fringe</p>
       </div>
       <div className={styles.item}>
       <Image src='/DD.png' width={325} height={225} />
-        DD
+       <p>Devil's Details</p> 
       </div>
       <div className={styles.item}>
       <Image src='/scroll.png' width={325} height={225} />
-        Counter
+       <p>Counter</p> 
       </div>
       <div className={styles.item}>
       <Image src='/Landing.png' width={325} height={225} />
-        Card Generator
+       <p>Card Generator</p> 
       </div>
       <div className={styles.item}>
       <Image src='/Landing.png' width={325} height={225} />
-        E-vite site
+       <p>Evite site</p> 
       </div>
       <div className={styles.item}>
       <Image src='/DD.png' width={325} height={225} />
-        This Portfolio
+       <p>This Portfolio</p> 
       </div>
 
     </section>
