@@ -1,5 +1,7 @@
-import Layout from '../comps/Layout'
-import '../styles/globals.css'
+import Layout from '../comps/Layout';
+import '../styles/globals.css';
+
+import '@fortawesome/fontawesome-free/css/all.css';
 
 function MyApp({ Component, pageProps }) {
   return (

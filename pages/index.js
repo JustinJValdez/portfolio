@@ -1,9 +1,11 @@
 import Link from 'next/link';
 import Head from 'next/head';
 
+
 import Contact from "../comps/Contact";
 import Skills from "../comps/Skills";
 import Projects from "../comps/Projects";
+import About from '../comps/About'
 
 import styles from "../styles/Home.module.css";
 
@@ -11,6 +13,7 @@ export default function Home() {
   return (
     <>
       <Head>
+
         <title>Justin Valdez's Portfolio</title>
       </Head>
       <header className={styles.header}>
@@ -20,15 +23,15 @@ export default function Home() {
         Web Developer</h1>
       </header>
       <section className={styles.section}>
-        
+          <br></br>
+          <About />
           <br></br>
           <Skills />
           <br></br>
           <Projects />
           <br></br>
           <Contact />
-      </section>
-      
+      </section>    
     </>
   );
 }

@@ -1,13 +1,43 @@
-.nav ul{
-  margin: auto;
-  padding:0;
-  list-style-type: none;
-  font-size: 1.5rem;
-  background-color: black;
-  color: honeydew;
-  width: 40%;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  
+.nav *{
+  margin: 0;
+  padding: 0;
 }
+.nav{
+  text-align: center;
+  position:fixed;
+  top: 3%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 1%;
+  width:250px;
+  height: 50px;
+  z-index: 1;
+  font-size: 2.75rem;
+  background-color: whitesmoke;
+  color: black;
+  border: outset 1px rgba(128, 128, 128);
+  border-radius: 100px;
+}
+
+.nav li {
+  text-align: center;
+  list-style: none;
+}
+
+.nav ul ul{
+  display: none;
+}
+.nav ul li:hover > ul{
+  display: block;
+}
+.nav li ul li{
+  color:whitesmoke;
+  background-color: #262626 ;
+  margin: 5px;
+  padding: 5px;
+  border: 2px outset rgb(128, 128, 128);
+  border-radius: 10px;
+
+}
+
+
