@@ -10,10 +10,10 @@ const Navbar = () => {
           <li>
             <a href='#'> <i className="fa-solid fa-caret-down"></i></a>
             <ul>
-              <li> <a href='#'>About</a> </li>
-              <li> <a href='#'>Skills</a> </li>
-              <li> <a href='#'>Projects</a> </li>
-              <li> <a href='#'>Contact</a> </li>
+            <li> <Link  href='/'><a>Home</a></Link></li>
+              <li> <Link  href='/About'><a>About</a></Link></li>
+              <li> <Link href='/Services'><a>Services</a></Link> </li>
+              <li> <Link a href='/Contact'><a>Hire Me</a></Link> </li>
             </ul>
           </li>
         </ul>  

@@ -17,15 +17,18 @@
   transform: translateZ(-10px) scale(2);
 }
 
-.title{
-  position: fixed;
-  top: 10%;
-  left: 0;
-  font-size: 9rem;
-  font-style: oblique;
-  color: rgb(0, 83, 11);
-  -webkit-transform: rotate(-25deg);
-}
+.name{
+    position: fixed;
+    top: 20%;
+    left: 0;
+    font-family:monospace;
+    font-size: 3.25rem;
+    color: rgb(9, 32, 12);
+    transform: rotate(-15deg);
+    line-height: 35px;
+  }
+
+
 
 .section {
   margin: auto;
