@@ -37,7 +37,9 @@
   padding: 5px;
   border: 2px outset rgb(128, 128, 128);
   border-radius: 10px;
-
+}
+.nav li ul li:hover{
+  background-color:rgb(128, 128, 128);
 }
 
 

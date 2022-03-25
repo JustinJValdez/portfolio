@@ -1,11 +1,36 @@
 .projects{
-  display: grid;
-  grid-template-columns: repeat(2,1fr);
-  background-color: brown;
-  padding: 5px;
+  margin-top:5%;
+  border-top: dashed 5px white;
 }
 
-.item{
-  width:40%;
-  height: 30%;
+.projects h2{
+text-decoration: underline;
+margin: 5% auto 5%;
+}
+
+.items{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  font-size: 1.25rem;
+}
+
+.work{
+  line-break: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin:1%;
+}
+
+.text{
+  padding: 10px;
+  width: 50%;
+  font-weight: 200;
+}
+.text h4{
+  color:rgb(231, 131, 240);
+  text-decoration: underline;
+}
+.text a{
+  color:rgb(231, 131, 240);
 }

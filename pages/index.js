@@ -17,11 +17,16 @@ export default function Home() {
         <meta name="keywords" content="Free Lance" />
       </Head>
       <header className={styles.header}>
-        <img src='/cat.jpg' className={styles.photo} />
-        <div className={styles.name}> 
+        
+        <div className={styles.name}>
+        <img src='/me1.jpg' className={styles.photo} />
           {/* Find solid font*/}
-          <h1>Justin Valdez,</h1>
-          <h2>Free lance web developer.</h2>
+          <h1>
+            Justin Valdez,
+            <br></br>
+            Web Developer.
+          </h1>
+          
         </div>
         
       </header>

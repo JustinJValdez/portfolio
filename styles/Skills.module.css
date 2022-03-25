@@ -1,6 +1,10 @@
 .skills{
+  font-size: 3rem;
   display: flex;
-  justify-content: space-around;
-  padding: 10px;
+  flex-direction: column;
+}
 
+.logos i{
+  font-size: 7rem;
+  letter-spacing: 2rem;
 }
