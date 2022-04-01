@@ -1,36 +1,40 @@
-.projects{
-  margin-top:5%;
+.projects {
+  margin-top: 5%;
   border-top: dashed 5px white;
 }
 
-.projects h2{
-text-decoration: underline;
-margin: 5% auto 5%;
+.projects h2 {
+  text-decoration: underline;
+  margin: 8% auto 3%;
 }
 
-.items{
+.items {
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(2, 1fr);
   font-size: 1.25rem;
 }
 
-.work{
+.work {
   line-break: auto;
   display: flex;
   align-items: center;
   justify-content: space-around;
-  margin:1%;
+  margin: 1%;
 }
 
-.text{
-  padding: 10px;
+.text {
+  padding: 5px;
   width: 50%;
   font-weight: 200;
 }
-.text h4{
-  color:rgb(231, 131, 240);
+.text h4 {
+  color: rgb(231, 131, 240);
   text-decoration: underline;
 }
-.text a{
-  color:rgb(231, 131, 240);
+.text a {
+  color: rgb(231, 131, 240);
+}
+.text p {
+  font-size: 1.5rem;
+  font-weight: 300;
 }
