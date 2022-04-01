@@ -1,8 +1,8 @@
-.about{
-  margin: 6% auto auto ;
-  padding: 5px;
+.about {
+  margin: 4% auto auto;
+  padding: 10px;
   width: 98%;
-  font-size: 1.75rem;
-  background-color: rgb(54, 51, 51, .8);
+  font-size: 1.3rem;
+  background-color: rgb(54, 51, 51, 0.8);
   color: antiquewhite;
 }

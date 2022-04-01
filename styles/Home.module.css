@@ -1,4 +1,4 @@
-.header{
+.header {
   margin: 5%;
   text-align: center;
   position: relative;
@@ -6,12 +6,12 @@
   justify-content: center;
   align-items: center;
   height: 100%;
-  transform-style: preserve-3d ;
+  transform-style: preserve-3d;
   z-index: -1;
   line-height: 150px;
 }
 
-.name{
+.name {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -20,8 +20,8 @@
   color: rgb(201, 248, 207);
   z-index: -1;
   transform: translateZ(-10px) scale(2);
-  }
-.photo{
+}
+.photo {
   object-fit: contain;
   width: 30%;
   border-radius: 300px;
@@ -29,8 +29,8 @@
 
 .section {
   margin: auto;
-  padding: 1rem;
-  background-color: rgb(54, 51, 51, .8);
+  padding: 5px;
+  background-color: rgb(54, 51, 51, 0.8);
   border: inset 2px whitesmoke;
   width: 99%;
   color: whitesmoke;

@@ -6,12 +6,15 @@ const About = () => {
     <>
       <div className={styles.about}>
         <Image src='/me.jpg'  height={400} width={600} />
-      <h1 >About me:</h1>
+      <h2 >About me:</h2>
       <p>
-          I am a California native that migrated to Utah for school and stayed for a girl. Above all else, my family and my friends are the most important things in this universe to me. My passion is to be the best me possible. I am a Certified Strength and Conditioning Coach as well as a Certified Athletic Trainer, so staying healthy and helping others be as healthy as they can be is a huge part of my life. I am the captain and quarterback of social league flag football team and I love going out and playing with my team!
+          I'm a California native that migrated to Utah for school and stayed for a girl. I'm a husband, a father, a son and a friend. 
+          <br />
+          <br /> 
+          Along with being a web developer, I am a Certified Strength and Conditioning Coach and Certified Athletic Trainer. Staying healthy and helping others be as healthy as they can be is a huge part of my life. I try and stay active whenever possible. One of the activies that I enjoy the most is playing flag football with my friends. I am the captain of a team that plays in a fun social league every fall and spring! 
           <br />
           <br />
-      Movies, music and comics are a guilty pleasure of mine. My favorite read is the Dark Tower series from Stephen King, my two favorite bands are Y&T and Atreyu, my favorite comic books characters are Venom, Spiderman, Green Lantern and the Red Hood.
+          When i'm not coding, working or being active, you can find me hanging out at home spending time with my wife, son and our cat. We love to watch movies, build puzzles, read, play games, cook and listen to music.
       </p>
       </div>
     

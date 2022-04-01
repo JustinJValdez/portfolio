@@ -1,15 +1,14 @@
-.nav *{
+.nav * {
   margin: 0;
   padding: 0;
 }
-.nav{
+.nav {
   text-align: center;
-  position:fixed;
-  top: 3%;
+  position: fixed;
+  top: 5%;
   left: 50%;
   transform: translate(-50%, -50%);
-  margin-top: 1%;
-  width:250px;
+  width: 250px;
   height: 50px;
   z-index: 1;
   font-size: 2.75rem;
@@ -23,23 +22,25 @@
   text-align: center;
   list-style: none;
 }
+.nav li i {
+  display: block;
+  font-size: 4rem;
+  margin-top: -10px;
+}
 
-.nav ul ul{
+.nav ul ul {
   display: none;
 }
-.nav ul li:hover > ul{
+.nav ul li:hover > ul {
   display: block;
 }
-.nav li ul li{
-  color:whitesmoke;
-  background-color: #262626 ;
-  margin: 5px;
-  padding: 5px;
+.nav li ul li {
+  color: whitesmoke;
+  background-color: #262626;
+  margin: 10px;
   border: 2px outset rgb(128, 128, 128);
   border-radius: 10px;
 }
-.nav li ul li:hover{
-  background-color:rgb(128, 128, 128);
+.nav li ul li:hover {
+  background-color: rgb(128, 128, 128);
 }
-
-
