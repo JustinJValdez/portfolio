@@ -12,12 +12,7 @@ import styles from "../styles/Home.module.css";
 export default function Home() {
   return (
     <>
-      <Head>
-        <title>Justin Valdez</title>
-        <meta name="keywords" content="Free Lance" />
-      </Head>
       <header className={styles.header}>
-        
         <div className={styles.name}>
         <img src='/me1.jpg' className={styles.photo} />
           {/* Find solid font*/}

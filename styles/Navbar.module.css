@@ -30,6 +30,7 @@
 .nav ul li:hover > ul{
   display: block;
 }
+
 .nav li ul li{
   color:whitesmoke;
   background-color: #262626 ;
