@@ -1,6 +1,3 @@
-import Head from 'next/head';
-
-
 import Contact from "../comps/Contact";
 import Skills from "../comps/Skills";
 import Projects from "../comps/Projects";
@@ -13,7 +10,6 @@ export default function Home() {
       <header className={styles.header}>
         <div className={styles.name}>
         <img src='/me1.jpg' className={styles.photo} />
-          {/* Find solid font*/}
           <h1>
             Justin Valdez,
             <br></br>

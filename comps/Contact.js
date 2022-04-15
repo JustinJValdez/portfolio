@@ -6,19 +6,16 @@ const Contact = () => {
     < >
       <div className={styles.form}>
         <form name="contact" method="POST" data-netlify="true">
-          <h3>Hire me today!</h3>
+          <h2>Hire me today!</h2>
             <p>
-              <input type="text" name="name" placeholder='Name'/>  
-            </p>
-            <p>
-              <input type="email" name="email" placeholder='Email' />
-            </p>
-            <p>
-              <textarea name="message" placeholder='Message'></textarea>
-            </p>
-            <p>
-              <button type="submit">Send</button>
-            </p>
+              <input  className={styles.inputs}type="text" name="name" placeholder='Name'/>  
+              <br />
+              <input className={styles.inputs} type="email" name="email" placeholder='Email' />
+              <br />
+              <textarea className={styles.inputs} name="message" placeholder='Message' rows="5"></textarea>
+              <br />
+              <button className={styles.formButton}type="submit">Submit</button>
+            </p>   
         </form>
         </div>
     </>

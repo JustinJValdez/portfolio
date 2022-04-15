@@ -1,3 +1,4 @@
+import Header from "./Header";
 import Footer from "./Footer";
 import Navbar from "../comps/Navbar";
 
@@ -8,6 +9,7 @@ const Layout = ({children}) => {
     <>
       <Navbar />
       <div className={styles.wrapper}>
+        <Header />
           {children}
         <Footer />
       </div>

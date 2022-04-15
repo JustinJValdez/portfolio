@@ -46,7 +46,7 @@ const Projects = () => {
           <Image src='/card.png' width={425} height={275} alt='Card generator website image' />
           <div className={styles.text}>
           <h4><a href="https://randomplayingcard.netlify.app/" target="_blank">Random Playing Card Generator</a></h4> 
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur iusto dolorum culpa provident soluta praesentium, accusantium aperiam fugit id sunt fugiat voluptates esse magnam aliquid harum. Dolorum totam quidem ab.</p>
+          <p>This web app was designed to have a simple click randomly generate a playing card.</p>
           <p>HTML | CSS | JS</p>
           </div>
         </div>
@@ -64,7 +64,7 @@ const Projects = () => {
           <Image src='/scroll.png' width={425} height={275} alt='Home page of this website image' />
           <div className={styles.text}>
               <h4><a href="" target="_blank">Smooth Scroll Single Page </a></h4>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi quod nihil facilis optio vitae quaerat totam quae nobis praesentium sapiente. Ex consectetur velit perspiciatis placeat nemo architecto voluptate aperiam? Eaque?</p>
+              <p>This wep app was designed to show a simple single page app with a smooth snap scroll on click. </p>
               <p>HTML | CSS | JS | JQ | Netlify </p>
           </div>              
         </div>

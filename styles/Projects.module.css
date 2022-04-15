@@ -19,7 +19,7 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  margin: 1%;
+  margin: 1.5%;
 }
 
 .text {
@@ -35,6 +35,5 @@
   color: rgb(231, 131, 240);
 }
 .text p {
-  font-size: 1.5rem;
   font-weight: 300;
 }
