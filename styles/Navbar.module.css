@@ -44,3 +44,15 @@
 .nav li ul li:hover {
   background-color: rgb(128, 128, 128);
 }
+
+@media (max-width: 1400px) {
+  .nav {
+    font-size: 2rem;
+    width: 200px;
+  }
+
+  .nav li i {
+    font-size: 3.25rem;
+    margin-top: -4px;
+  }
+}

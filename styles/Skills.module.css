@@ -1,10 +1,42 @@
-.skills{
+.skills {
   font-size: 3rem;
   display: flex;
   flex-direction: column;
+  margin-bottom: 5%;
 }
 
-.logos i{
+.logos i {
   font-size: 7rem;
   letter-spacing: 2rem;
+}
+
+/*medium screens*/
+@media (max-width: 1400px) {
+  .skills {
+    font-size: 2rem;
+  }
+  .logos i {
+    font-size: 5.5rem;
+    letter-spacing: 1.25rem;
+  }
+}
+
+/*small screens*/
+@media (max-width: 1000px) {
+  .skills {
+    font-size: 1.5rem;
+  }
+  .logos i {
+    font-size: 4rem;
+  }
+}
+
+/*Mobile screens*/
+@media (max-width: 480px) {
+  .skills {
+    font-size: 1.2rem;
+  }
+  .logos i {
+    font-size: 3rem;
+  }
 }

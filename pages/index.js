@@ -7,8 +7,8 @@ import styles from "../styles/Home.module.css";
 export default function Home() {
   return (
     <>
-      <header className={styles.header}>
-        <div className={styles.name}>
+      <header id="top" className={styles.header}>
+        <div  className={styles.name}>
         <img src='/me1.jpg' className={styles.photo} />
           <h1>
             Justin Valdez,

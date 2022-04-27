@@ -4,9 +4,9 @@ import styles from '../styles/Contact.module.css';
 const Contact = () => {
   return ( 
     < >
-      <div className={styles.form}>
+      <div id="hire" className={styles.form}>
         <form name="contact" method="POST" data-netlify="true">
-          <h2>Hire me today!</h2>
+          <h1>Hire me today!</h1>
             <p>
               <input  className={styles.inputs}type="text" name="name" placeholder='Name'/>  
               <br />
