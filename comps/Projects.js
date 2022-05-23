@@ -59,15 +59,16 @@ const Projects = () => {
           <p>HTML | CSS | JS</p>
           </div>      
         </div>
-
-        <div className={styles.work}>
+        
+        {/* <div className={styles.work}>
           <Image src='/scroll.png' width={425} height={275} alt='Home page of this website image' />
           <div className={styles.text}>
               <h3><a href="" target="_blank">Smooth Scroll Single Page </a></h3>
               <p>This wep app was designed to show a simple single page app with a smooth snap scroll on click. </p>
               <p>HTML | CSS | JS | JQ | Netlify </p>
           </div>              
-        </div>
+        </div>*/}
+        
 
       </div>
       
